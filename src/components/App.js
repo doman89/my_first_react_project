@@ -13,11 +13,12 @@ class App extends React.Component {
     };
 
     setTypeItem = (e) => {
-            // console.log(e.target);
         e.target.parentNode.querySelectorAll('button').forEach( button => button.classList.remove('selected'));
         e.target.classList.toggle('selected');
         this.setState({
+            data: {},
             typeOfSearchingItem: e.target.textContent.toLowerCase(),
+            alreadyNameOfSearchingItem: '',
         })
     };
 
