@@ -64,13 +64,14 @@ form {
 }
 
 form button {
+    display: flex;
     text-transform: uppercase;
-    text-align: center;
+    line-height: 100%;
     background-color: rgba(0,0,0,0.5);
     border: 1px solid red;
     margin-left: 1%;
     margin-bottom: 2%;
-    padding: 2% 4%;
+    padding: 1em 2em;
     font-size: 1.2em;
     transition: 0.3s;
 }
