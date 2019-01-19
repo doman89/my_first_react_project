@@ -14,6 +14,6 @@ const PeopleLiElement = props =>{
             <p>Hair color: {props.responseData.hair_color}</p>
         </>
     );
-}
+};
 
 export default PeopleLiElement;

@@ -13,11 +13,11 @@ const ResultViewer = (props) => {
 
     return (
         <div onClick={() => handleOnClick(props)}>
-            <p>{props.getAlreadyNameItem ?
+            <p className={'searchingInfo'}>{props.getAlreadyNameItem ?
                 `You looking for ${props.getAlreadyNameItem} item in ${props.getTypeItem} field.` :
                 `If you looking for any items, type in input field`}
             </p>
-            <p>Number of results: {props.responseData.length ? props.responseData.length : '0'}</p>
+            <p className={'numberOfResults'}>Number of results: {props.responseData.length ? props.responseData.length : '0'}</p>
             <ul>
                 {searchingResult}
             </ul>

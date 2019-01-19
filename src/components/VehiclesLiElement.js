@@ -3,7 +3,7 @@ import React from 'react';
 
 const VehiclesLiElement = props => {
     return (
-        <li>
+        <>
             <h1>{props.responseData.name}</h1>
             <p>Cargo capacity: {props.responseData.cargo_capacity}</p>
             <p>Consumables: {props.responseData.consumables}</p>
@@ -15,7 +15,7 @@ const VehiclesLiElement = props => {
             <p>Model: {props.responseData.model}</p>
             <p>Passengers: {props.responseData.passengers}</p>
             <p>Vehicle class: {props.responseData.vehicle_class}</p>
-        </li>
+        </>
     );
 };
 

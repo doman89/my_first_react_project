@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="115c9077-6534-4b18-9959-8258e0c229bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/SpeciesLiElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/wallpaper_640.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LiElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LiElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PeopleLiElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeopleLiElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PlanetsLiElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlanetsLiElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ResultViewer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ResultViewer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StarshipsLiElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StarshipsLiElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VehiclesLiElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VehiclesLiElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/LiElement.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -30,10 +36,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/SpeciesLiElement.js">
+        <entry file="file://$PROJECT_DIR$/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="64" lean-forward="true" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+            <state relative-caret-position="152">
+              <caret line="131" column="41" selection-start-line="131" selection-start-column="41" selection-end-line="131" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -61,29 +67,29 @@
         <option value="$PROJECT_DIR$/src/components/formButtonField.js" />
         <option value="$PROJECT_DIR$/src/components/FormButton.js" />
         <option value="$PROJECT_DIR$/src/components/Content.js" />
-        <option value="$PROJECT_DIR$/src/components/ResultViewer.js" />
-        <option value="$PROJECT_DIR$/src/components/PeopleLiElement.js" />
         <option value="$PROJECT_DIR$/src/components/Formular.js" />
         <option value="$PROJECT_DIR$/src/components/SpaceshipsLiElement.js" />
         <option value="$PROJECT_DIR$/src/components/FormButtonField.js" />
-        <option value="$PROJECT_DIR$/src/components/StarshipsLiElement.js" />
         <option value="$PROJECT_DIR$/src/components/Header.js" />
         <option value="$PROJECT_DIR$/src/components/App.js" />
         <option value="$PROJECT_DIR$/src/components/Footer.js" />
-        <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/components/PlanetsLiElement.js" />
         <option value="$PROJECT_DIR$/src/components/VehiclesLiElements.js" />
-        <option value="$PROJECT_DIR$/src/components/VehiclesLiElement.js" />
         <option value="$PROJECT_DIR$/src/components/FilmsLiElement.js" />
-        <option value="$PROJECT_DIR$/src/components/LiElement.js" />
         <option value="$PROJECT_DIR$/src/components/SpeciesLiElement.js" />
+        <option value="$PROJECT_DIR$/src/components/ResultViewer.js" />
+        <option value="$PROJECT_DIR$/src/components/LiElement.js" />
+        <option value="$PROJECT_DIR$/src/components/PeopleLiElement.js" />
+        <option value="$PROJECT_DIR$/src/components/StarshipsLiElement.js" />
+        <option value="$PROJECT_DIR$/src/components/PlanetsLiElement.js" />
+        <option value="$PROJECT_DIR$/src/components/VehiclesLiElement.js" />
+        <option value="$PROJECT_DIR$/src/index.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="584" />
-    <option name="y" value="16" />
-    <option name="width" value="741" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="254" />
+    <option name="y" value="54" />
+    <option name="width" value="1038" />
     <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -104,6 +110,12 @@
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
@@ -134,7 +146,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WebstormProjects\test\src\components\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\WebstormProjects\test\src" />
       <recent name="C:\WebstormProjects\test\src\components" />
     </key>
   </component>
@@ -179,7 +195,7 @@
       <workItem from="1547580711834" duration="1827000" />
       <workItem from="1547583269812" duration="14519000" />
       <workItem from="1547753892133" duration="22470000" />
-      <workItem from="1547845743502" duration="5960000" />
+      <workItem from="1547845743502" duration="9762000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1547839494083</created>
@@ -230,11 +246,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547920947087</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add SpeciesLiElements component and use it in LiElement component. User now can searching species on website.">
+      <created>1547921636479</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1547921636479</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55537000" />
+    <option name="totallyTimeSpent" value="59339000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -246,10 +269,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="584" y="16" width="741" height="688" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.655761" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26041666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -263,7 +286,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5029762" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49702382" visible="true" weight="0.24324325" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49702382" visible="true" weight="0.22094926" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -278,7 +301,8 @@
     <MESSAGE value="Fixed method setTypeItem if user on website changed field of searching item and add hiperlink to swapi website in footer." />
     <MESSAGE value="Add VehiclesLiElements component and use it in LiElement component. User now can searching vehicles on website." />
     <MESSAGE value="Add PlanetsLiElements component and use it in LiElement component. User now can searching planets on website." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add PlanetsLiElements component and use it in LiElement component. User now can searching planets on website." />
+    <MESSAGE value="Add SpeciesLiElements component and use it in LiElement component. User now can searching species on website." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add SpeciesLiElements component and use it in LiElement component. User now can searching species on website." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
@@ -311,27 +335,10 @@
     <entry file="file://$PROJECT_DIR$/public/manifest.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/StarshipsLiElement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" selection-start-line="4" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Content.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ResultViewer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -358,24 +365,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="123" selection-start-line="5" selection-start-column="123" selection-end-line="5" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="24" column="114" selection-start-line="24" selection-start-column="114" selection-end-line="24" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
         </state>
       </provider>
     </entry>
@@ -400,29 +393,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PlanetsLiElement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ListElement.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/VehiclesLiElement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PeopleLiElement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MyFormular.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -434,27 +406,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FilmsLiElement.js">
+    <entry file="file://$PROJECT_DIR$/src/components/SpeciesLiElement.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="2" lean-forward="true" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="204">
+          <caret line="12" column="64" lean-forward="true" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LiElement.js">
+    <entry file="file://$PROJECT_DIR$/src/components/ResultViewer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        <state relative-caret-position="192">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SpeciesLiElement.js">
+    <entry file="file://$PROJECT_DIR$/src/components/StarshipsLiElement.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="64" lean-forward="true" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+        <state relative-caret-position="338">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PlanetsLiElement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PeopleLiElement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/VehiclesLiElement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FilmsLiElement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LiElement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="131" column="41" selection-start-line="131" selection-start-column="41" selection-end-line="131" selection-end-column="41" />
         </state>
       </provider>
     </entry>

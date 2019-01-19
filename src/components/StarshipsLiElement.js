@@ -19,6 +19,6 @@ const StarshipLiElement = props =>{
             <p>Consumables: {props.responseData.consumables}</p>
         </>
     );
-}
+};
 
 export default StarshipLiElement;

@@ -3,7 +3,7 @@ import React from 'react';
 
 const PlanetsLiElement = props => {
     return (
-      <li>
+      <>
           <h1>{props.responseData.name}</h1>
           <p>Climate: {props.responseData.climate}</p>
           <p>Diameter: {props.responseData.diameter}</p>
@@ -13,7 +13,7 @@ const PlanetsLiElement = props => {
           <p>Population: {props.responseData.population}</p>
           <p>Surface water: {props.responseData.surface_water}</p>
           <p>Terrain: {props.responseData.terrain}</p>
-      </li>
+      </>
     );
 };
 
