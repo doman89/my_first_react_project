@@ -4,6 +4,7 @@ import StarshipsLiElement from './StarshipsLiElement';
 import PlanetsLiElement from './PlanetsLiElement';
 import VehiclesLiElement from './VehiclesLiElement';
 import FilmsLiElement from './FilmsLiElement';
+import SpeciesLiElement from './SpeciesLiElement';
 
 const LiElement = props =>{
 
@@ -13,8 +14,8 @@ const LiElement = props =>{
             case 'planets': return <PlanetsLiElement responseData={props.responseData}/>;
             case 'starships': return <StarshipsLiElement responseData={props.responseData}/>;
             case 'vehicles': return <VehiclesLiElement responseData={props.responseData} />;
-            case 'films': return <FilmsLiElement responseData={props.responseData} />
-            case 'species': break;
+            case 'films': return <FilmsLiElement responseData={props.responseData} />;
+            case 'species': return <SpeciesLiElement responseData={props.responseData} />
             default: return null;
         }
     };
