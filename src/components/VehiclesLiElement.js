@@ -1,9 +1,12 @@
 import React from 'react';
 import FilmTitleLiElement from './FilmTitleLiElement';
+import GetNameLiElement from './GetNameLiElement';
 
 const VehiclesLiElement = props =>{
 
-    const filmsList = props.responseData.films.map((film, index) => <li id={index}><FilmTitleLiElement titleAddress={film} /></li>);
+    const filmsList = props.responseData.films.map((film, index) => <li key={index}><FilmTitleLiElement titleAddress={film} /></li>);
+    const pilotsList = props.responseData.pilots.map((pilot, index) => <li key={index}><GetNameLiElement nameAddress={pilot} /></li>);
+
     return (
         <>
             <h1>{props.responseData.name}</h1>
@@ -19,7 +22,11 @@ const VehiclesLiElement = props =>{
             <p>Vehicle class: {props.responseData.vehicle_class}</p>
             <ul className={'nestedList'}>
                 <p>Films:</p>
-                {filmsList}
+                {filmsList.length !== 0 ? filmsList : <li>{'n/a'}</li>}
+            </ul>
+            <ul className={'nestedList'}>
+                <p>Pilots:</p>
+                {pilotsList.length !== 0 ? pilotsList : <li>{'n/a'}</li>}
             </ul>
         </>
     );

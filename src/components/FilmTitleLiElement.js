@@ -2,12 +2,10 @@ import React from 'react';
 
 class FilmTitleLiElement extends React.Component {
 
-    constructor(props){
-        super(props);
-    }
     state = {
       filmTitle: '',
     };
+
     componentDidMount() {
         fetch(this.props.titleAddress)
             .then(response => response.json())
