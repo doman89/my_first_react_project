@@ -1,7 +1,9 @@
 import React from 'react';
-
+import FilmTitleLiElement from './FilmTitleLiElement';
 
 const PlanetsLiElement = props => {
+
+    const filmsList = props.responseData.films.map((film, index) => <li id={index}><FilmTitleLiElement titleAddress={film} /></li>);
     return (
       <>
           <h1>{props.responseData.name}</h1>
@@ -13,6 +15,10 @@ const PlanetsLiElement = props => {
           <p>Population: {props.responseData.population}</p>
           <p>Surface water: {props.responseData.surface_water}</p>
           <p>Terrain: {props.responseData.terrain}</p>
+          <ul className={'nestedList'}>
+              <p>Films:</p>
+              {filmsList}
+          </ul>
       </>
     );
 };

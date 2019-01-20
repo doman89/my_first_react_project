@@ -93,7 +93,7 @@ form input {
     flex-grow: 1;
     background-color: rgba(0,0,0,0.5);
     border: 1px solid red;
-    padding: 2% 4%;
+    padding: 0.5em 1em;
     margin-left: 1%;
     margin-bottom: 2%;
     font-size: 1.5em;
@@ -142,36 +142,50 @@ form input:focus {
     margin-bottom: 2%;
 }
 
-ul {
+div>ul {
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
     list-style: none;
 }
 
-ul h1 {
+div>ul>p {
+    font-size: 1.4em;
+}
+
+div>ul h1 {
     color: red;
     text-transform: uppercase;
     margin-bottom: 1%;
 }
 
-li {
+div>ul>li {
     margin-bottom: 10%;
     border-bottom: 1px solid red;
     padding-bottom: 1%;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-li p {
+div>ul li p {
     padding-bottom: 1%;
 }
 
-li p:last-child{
+div>ul li p:last-child{
     margin-bottom: 3%;
 }
 
-li>*{
+div>ul>li>*{
     flex-grow: 0;
+}
+
+.nestedList{
+    list-style: none;
+}
+
+.nestedList li {
+    font-size: 1.4em;
+    text-indent: 3em;
+    padding-bottom: 1%;
 }
 
 footer {

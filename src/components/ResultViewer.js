@@ -14,8 +14,8 @@ const ResultViewer = (props) => {
     return (
         <div onClick={() => handleOnClick(props)}>
             <p className={'searchingInfo'}>{props.getAlreadyNameItem ?
-                `You looking for ${props.getAlreadyNameItem} item in ${props.getTypeItem} field.` :
-                `If you looking for any items, type in input field`}
+                `You are looking for ${props.getAlreadyNameItem} item in ${props.getTypeItem} field.` :
+                `If you are looking for any items, type in input field`}
             </p>
             <p className={'numberOfResults'}>Number of results: {props.responseData.length ? props.responseData.length : '0'}</p>
             <ul>
