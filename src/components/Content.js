@@ -10,13 +10,13 @@ const Content = (props) => {
               setTypeItem={props.setTypeItem}
               setNameItem={props.setNameItem}
               sendRequest={props.sendRequest}
+              getTypeItem={props.getTypeItem}
           />
           <ResultViewer
               responseData={props.responseData}
               getAlreadyNameItem={props.getAlreadyNameItem}
               getTypeItem={props.getTypeItem}
           />
-
       </div>
     );
 };

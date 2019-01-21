@@ -6,6 +6,7 @@ const handleOnClick = props => {
 };
 
 const ResultViewer = (props) => {
+
     let searchingResult = null;
     if(props.responseData.length)
         searchingResult = props.responseData.map((item,index) => (
@@ -14,7 +15,7 @@ const ResultViewer = (props) => {
     return (
         <div onClick={() => handleOnClick(props)}>
             <p className={'searchingInfo'}>{props.getAlreadyNameItem ?
-                `You are looking for ${props.getAlreadyNameItem} item in ${props.getTypeItem} field.` :
+                `You are looking for ${props.getAlreadyNameItem} item in ${props.getTypeItem ? props.getTypeItem : 'any'} field.` :
                 `If you are looking for any items, type in input field`}
             </p>
             <p className={'numberOfResults'}>Number of results: {props.responseData.length ? props.responseData.length : '0'}</p>
