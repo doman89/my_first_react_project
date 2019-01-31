@@ -1,3 +1,11 @@
+This is my first project built in React, it use free external API (SWAPI).
+If you would like to see how this app work, here you can do it:
+
+https://peaceful-falls-26512.herokuapp.com/
+
+This app is very simply search engine about Star Wars universum.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
